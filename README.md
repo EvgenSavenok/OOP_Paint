@@ -1,6 +1,6 @@
 # Welcome!
 
-This repository contains laboratory works 1-6 for subject Object-oriented technologies of programming
+This repository contains laboratory works 1-6 for subject "Object-oriented technologies of programming" from Belarusian state university informatics and radioelectronics.
 
 ## Installation
 
