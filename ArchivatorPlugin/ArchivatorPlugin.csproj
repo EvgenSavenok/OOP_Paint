@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="BaseShapesClasses">
+        <HintPath>..\OOP_4\bin\Debug\net8.0-windows\BaseShapesClasses.dll</HintPath>
+      </Reference>
+      <Reference Include="FunctionalityModule">
+        <HintPath>..\OOP_4\bin\Debug\net8.0-windows\FunctionalityModule.dll</HintPath>
+      </Reference>
+      <Reference Include="OOP_4">
+        <HintPath>..\OOP_4\bin\Debug\net8.0-windows\OOP_4.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BaseShapesClasses\BaseShapesClasses\BaseShapesClasses.csproj" />
+      <ProjectReference Include="..\FunctionalityModule\FunctionalityModule.csproj" />
+      <ProjectReference Include="..\OOP_4\OOP_4.csproj" />
+    </ItemGroup>
+
+</Project>

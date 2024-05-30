@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "l/iVHuQ+NiAVbGw4yGASggn+jMSqghHjCzewsEV75wyD4eA3ynfiYOAcdK3I1f9oY9OZUQDf7BvIqtIY5yTJLg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\eugen\\RiderProjects\\OOP\\FormatConvertingModule\\FormatConvertingModule.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eugen\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\microsoft.netcore.platforms\\8.0.0-preview.7.23375.6\\microsoft.netcore.platforms.8.0.0-preview.7.23375.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4\\OOP_4.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4\\OOP_4.csproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

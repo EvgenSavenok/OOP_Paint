@@ -1,0 +1,112 @@
+﻿<Window x:Class="OOP_3.MainForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:system="clr-namespace:System;assembly=System.Runtime"
+        mc:Ignorable="d"
+        Title="Paint" Height="450" Width="800"
+        SourceInitialized="Window_SourceInitialized">
+    <Grid>
+        <Grid.RowDefinitions>
+             <RowDefinition Height="Auto"/>  
+             <RowDefinition Height="0.07*"/>  
+             <RowDefinition Height="*"/>  
+        </Grid.RowDefinitions>
+        <Grid Grid.Row = "0">
+            <Menu Height="25" VerticalAlignment="Top" FontSize="16" Background="White">
+                <MenuItem Header="Файл">
+                    <MenuItem Header="Открыть в формате:">
+                        <MenuItem Header="JSON" Click = "OpenJSON_Click"/>
+                        <MenuItem Header="Бинарный" Click = "OpenBinary_Click"/>
+                        <MenuItem Header="XML" Click = "OpenXML_Click"/>
+                    </MenuItem>
+                    <MenuItem Header="Сохранить в формате:">
+                        <MenuItem Header="JSON" Click = "SaveToJSON_Click"/>
+                        <MenuItem Header="Бинарный" Click = "SaveToBinary_Click"/>
+                        <MenuItem Header="XML" Click = "SaveToXML_Click"/>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Динамическая загрузка">
+                    <MenuItem Header = "Загрузить модуль" Click = "LoadModule_Click"></MenuItem>
+                    <MenuItem Header = "Загрузить функционал" Click = "LoadFunc_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header = "Текущий функциональный плагин">
+                    <MenuItem Header="Открыть" Click = "OpenCurFuncPlugin_Click"/>
+                    <MenuItem Header="Сохранить" Click = "SaveCurFuncPlugin_Click"/>
+                </MenuItem>
+                <MenuItem Header = "О разработчике" Click = "AboutDeveloper_Click"/>
+                <MenuItem Header = "Помощь" Click = "Help_Click"/>
+            </Menu>
+        </Grid>
+        <Grid Grid.Row = "1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width = "Auto"/>
+                <ColumnDefinition Width = "Auto"/>
+                <ColumnDefinition Width = "Auto"/>
+                <ColumnDefinition Width = "*"/>
+                <ColumnDefinition Width = "*"/>
+            </Grid.ColumnDefinitions>
+            <ComboBox Grid.Column="0" HorizontalAlignment="Left" Margin="10" SelectedIndex="0"
+                      SelectionChanged="ShapeCb_SelectionChanged"
+                      Width = "Auto"
+                      FontSize="16"
+                      ItemsSource="{Binding ComboBoxItems}"
+                      SelectedItem="{Binding SelectedIndex}"
+                      x:Name = "ShapesCb" 
+                      >
+            </ComboBox>
+            <Button x:Name = "CursorBtn" Grid.Column="1" HorizontalAlignment="Left" Margin="10"
+                    Click="CursorBtn_Click"
+                    BorderBrush="Black"
+                    BorderThickness="3">
+                <Image Source="/Images/Cursor.png"></Image>
+            </Button>
+            <Button Grid.Column = "2" HorizontalAlignment="Left" Margin = "10"
+                    Background="LightGreen" Content = "Очистить"
+                    Click = "ClearBtn_Click"
+                    Width = "100"
+                    FontSize="16">
+            </Button>
+            <ComboBox Grid.Column="3" HorizontalAlignment="Left" Margin="10" SelectedIndex="0"
+                      SelectionChanged="CurFuncPlugin_SelectionChanged"
+                      Width = "Auto"
+                      FontSize="16"
+                      ItemsSource="{Binding ComboBoxFunctionalities}"
+                      SelectedItem="{Binding SelectedIndex}"
+                      x:Name = "FuncPluginsCb" 
+            >
+            </ComboBox>
+            <ComboBox Name = "ColorCb" Grid.Column="4" HorizontalAlignment="Right" Margin="10" SelectedIndex="0" 
+                      SelectionChanged="ColorCb_SelectionChanged">
+                <ComboBox.Style>
+                    <Style TargetType="ComboBox">
+                        <Setter Property="ItemTemplate">
+                            <Setter.Value>
+                                <DataTemplate>
+                                    <Rectangle Fill="{Binding}" Width="20" Height="20" Margin="0,2,0,2"/>
+                                </DataTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ComboBox.Style>
+                <Brush>Black</Brush>
+                <Brush>Green</Brush>
+                <Brush>Blue</Brush>
+                <Brush>Pink</Brush>
+                <Brush>Red</Brush>
+                <Brush>Purple</Brush>
+                <Brush>Yellow</Brush>
+            </ComboBox>
+        </Grid>
+        <Border Grid.Row = "2" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10">
+            <Canvas x:Name = "MyCanvas"
+                    MouseDown="Canvas_MouseDown"
+                    MouseMove="Canvas_MouseMove"
+                    KeyUp="Canvas_KeyDown"
+                    Focusable="True"
+                    Background="Transparent">
+            </Canvas>
+        </Border>
+    </Grid>
+</Window>

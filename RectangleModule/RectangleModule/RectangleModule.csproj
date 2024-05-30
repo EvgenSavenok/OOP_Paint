@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="BaseShapesClasses">
+        <HintPath>..\..\BaseShapesClasses\BaseShapesClasses\bin\Debug\net8.0-windows\BaseShapesClasses.dll</HintPath>
+      </Reference>
+      <Reference Include="PolygonModule">
+        <HintPath>..\..\..\Desktop\ShapesModules\PolygonModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\PolygonModule\PolygonModule\PolygonModule.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BaseShapesClasses/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json.Bson": "1.0.3-beta1"
+        },
+        "runtime": {
+          "BaseShapesClasses.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.3-beta1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.3.27029"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BaseShapesClasses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json.Bson/1.0.3-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zc0FLLTq/D6cNU4rz/zIWHNKtrFfvAGc3TRBBw64kmzmwM1ZOWnea8IKTNQgpqJ5C6zoHFUsOjGmknIqO8tU6w==",
+      "path": "newtonsoft.json.bson/1.0.3-beta1",
+      "hashPath": "newtonsoft.json.bson.1.0.3-beta1.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Json.Net/1.0.33": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Json.Net.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/8.0.0-preview.7.23375.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Json.Net/1.0.33": {
+      "sha512": "5tE+db6BqhRAvITIVBeRsQorLGshPExfm4FmMRvWWAfs4RxeTbFFj2PIEybwmMW0qR30HKkXDYhq0YkDK2Jtxw==",
+      "type": "package",
+      "path": "json.net/1.0.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "json.net.1.0.33.nupkg.sha512",
+        "json.net.nuspec",
+        "lib/netstandard2.0/Json.Net.dll"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/8.0.0-preview.7.23375.6": {
+      "sha512": "ym5B/aglUc4K5kkiBOOgsm7EETjenJBbMchAHvcXpfFPmrdTrhnLKC1Tvx5Qnz5kHvhloyCNTpGQvWIpxvINHg==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/8.0.0-preview.7.23375.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.8.0.0-preview.7.23375.6.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4\\OOP_4.csproj",
+      "Json.Net >= 1.0.33",
+      "Microsoft.NETCore.Platforms >= 8.0.0-preview.7.23375.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\eugen\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\eugen\\RiderProjects\\OOP\\FormatConvertingModule\\FormatConvertingModule.csproj",
+      "projectName": "FormatConvertingModule",
+      "projectPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\FormatConvertingModule\\FormatConvertingModule.csproj",
+      "packagesPath": "C:\\Users\\eugen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\FormatConvertingModule\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\eugen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4\\OOP_4.csproj": {
+              "projectPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4\\OOP_4.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Json.Net": {
+            "target": "Package",
+            "version": "[1.0.33, )"
+          },
+          "Microsoft.NETCore.Platforms": {
+            "target": "Package",
+            "version": "[8.0.0-preview.7.23375.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4\\OOP_4.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4\\OOP_4.csproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

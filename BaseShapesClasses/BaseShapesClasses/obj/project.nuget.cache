@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "L6CSLbtIACh5u50ckm2X5+JTrkFzzeVAhdk0xrHYg/NHIlduFMN70cjV5KOAKPgvRy2vsDnjVltaNLZAGcpC+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eugen\\RiderProjects\\OOP\\BaseShapesClasses\\BaseShapesClasses\\BaseShapesClasses.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eugen\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\newtonsoft.json.bson\\1.0.3-beta1\\newtonsoft.json.bson.1.0.3-beta1.nupkg.sha512"
+  ],
+  "logs": []
+}

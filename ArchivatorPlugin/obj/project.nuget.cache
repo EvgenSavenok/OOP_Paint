@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "/6nx7ktSY5aDRUzemb6QTAwHQ8Axm/htO4wM8knJuPwyb/ww+NignhgC7SUpwmpLQG03yfv1PcRlINJw+2XgAQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eugen\\RiderProjects\\OOP\\ArchivatorPlugin\\ArchivatorPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eugen\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\8.0.3\\microsoft.aspnetcore.jsonpatch.8.0.3.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.3\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.3.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\newtonsoft.json.bson\\1.0.3-beta1\\newtonsoft.json.bson.1.0.3-beta1.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\syncfusion.data.wpf\\25.1.35\\syncfusion.data.wpf.25.1.35.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\syncfusion.licensing\\25.1.35\\syncfusion.licensing.25.1.35.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\syncfusion.sfchart.wpf\\25.1.35\\syncfusion.sfchart.wpf.25.1.35.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\syncfusion.sfgrid.wpf\\25.1.35\\syncfusion.sfgrid.wpf.25.1.35.nupkg.sha512",
+    "C:\\Users\\eugen\\.nuget\\packages\\syncfusion.shared.wpf\\25.1.35\\syncfusion.shared.wpf.25.1.35.nupkg.sha512"
+  ],
+  "logs": []
+}

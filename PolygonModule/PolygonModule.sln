@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolygonModule", "PolygonModule\PolygonModule.csproj", "{D1FB6D3B-4A86-4A55-B064-9DCA87BE3511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1FB6D3B-4A86-4A55-B064-9DCA87BE3511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FB6D3B-4A86-4A55-B064-9DCA87BE3511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FB6D3B-4A86-4A55-B064-9DCA87BE3511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FB6D3B-4A86-4A55-B064-9DCA87BE3511}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

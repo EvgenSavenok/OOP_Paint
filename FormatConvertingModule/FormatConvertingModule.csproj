@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="BaseShapesClasses">
+        <HintPath>..\FunctionalityModule\bin\Debug\net8.0-windows\BaseShapesClasses.dll</HintPath>
+      </Reference>
+      <Reference Include="FunctionalityModule">
+        <HintPath>..\FunctionalityModule\bin\Debug\net8.0-windows\FunctionalityModule.dll</HintPath>
+      </Reference>
+      <Reference Include="OOP_4">
+        <HintPath>..\OOP_4\OOP_4\bin\Debug\net8.0-windows\OOP_4.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Json.Net" Version="1.0.33" />
+      <PackageReference Include="Microsoft.NETCore.Platforms" Version="8.0.0-preview.7.23375.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OOP_4\OOP_4\OOP_4.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <RootNamespace>OOP_3</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.3" />
+      <PackageReference Include="Syncfusion.SfChart.WPF" Version="25.1.35" />
+      <PackageReference Include="Syncfusion.SfGrid.WPF" Version="25.1.35" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Images\Cursor.png" />
+      <Resource Include="Images\Cursor.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="BaseShapesClasses">
+        <HintPath>..\..\BaseShapesClasses\BaseShapesClasses\bin\Debug\net8.0-windows\BaseShapesClasses.dll</HintPath>
+      </Reference>
+      <Reference Include="FunctionalityModule">
+        <HintPath>..\..\FunctionalityModule\bin\Debug\net8.0-windows\FunctionalityModule.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Functionality\IFunctionality.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BaseShapesClasses\BaseShapesClasses\BaseShapesClasses.csproj" />
+      <ProjectReference Include="..\FunctionalityModule\FunctionalityModule.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+C:\Users\eugen\Desktop\OOP_4.pdb
+C:\Users\eugen\Desktop\D3DCompiler_47_cor3.dll
+C:\Users\eugen\Desktop\PenImc_cor3.dll
+C:\Users\eugen\Desktop\PresentationNative_cor3.dll
+C:\Users\eugen\Desktop\vcruntime140_cor3.dll
+C:\Users\eugen\Desktop\wpfgfx_cor3.dll
+C:\Users\eugen\Desktop\aspnetcorev2_inprocess.dll
+C:\Users\eugen\Desktop\BaseShapesClasses.pdb
+C:\Users\eugen\Desktop\OOP_4.exe

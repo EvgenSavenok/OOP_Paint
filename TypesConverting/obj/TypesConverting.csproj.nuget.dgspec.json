@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\eugen\\RiderProjects\\OOP\\TypesConverting\\TypesConverting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eugen\\RiderProjects\\OOP\\BaseShapesClasses\\BaseShapesClasses\\BaseShapesClasses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eugen\\RiderProjects\\OOP\\BaseShapesClasses\\BaseShapesClasses\\BaseShapesClasses.csproj",
+        "projectName": "BaseShapesClasses",
+        "projectPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\BaseShapesClasses\\BaseShapesClasses\\BaseShapesClasses.csproj",
+        "packagesPath": "C:\\Users\\eugen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\BaseShapesClasses\\BaseShapesClasses\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eugen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json.Bson": {
+              "target": "Package",
+              "version": "[1.0.3-beta1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eugen\\RiderProjects\\OOP\\FunctionalityModule\\FunctionalityModule.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eugen\\RiderProjects\\OOP\\FunctionalityModule\\FunctionalityModule.csproj",
+        "projectName": "FunctionalityModule",
+        "projectPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\FunctionalityModule\\FunctionalityModule.csproj",
+        "packagesPath": "C:\\Users\\eugen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\FunctionalityModule\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eugen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4.csproj",
+        "projectName": "OOP_4",
+        "projectPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4.csproj",
+        "packagesPath": "C:\\Users\\eugen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eugen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\eugen\\RiderProjects\\OOP\\BaseShapesClasses\\BaseShapesClasses\\BaseShapesClasses.csproj": {
+                "projectPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\BaseShapesClasses\\BaseShapesClasses\\BaseShapesClasses.csproj"
+              },
+              "C:\\Users\\eugen\\RiderProjects\\OOP\\FunctionalityModule\\FunctionalityModule.csproj": {
+                "projectPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\FunctionalityModule\\FunctionalityModule.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Syncfusion.SfChart.WPF": {
+              "target": "Package",
+              "version": "[25.1.35, )"
+            },
+            "Syncfusion.SfGrid.WPF": {
+              "target": "Package",
+              "version": "[25.1.35, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eugen\\RiderProjects\\OOP\\TypesConverting\\TypesConverting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eugen\\RiderProjects\\OOP\\TypesConverting\\TypesConverting.csproj",
+        "projectName": "TypesConverting",
+        "projectPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\TypesConverting\\TypesConverting.csproj",
+        "packagesPath": "C:\\Users\\eugen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\TypesConverting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eugen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\eugen\\RiderProjects\\OOP\\FunctionalityModule\\FunctionalityModule.csproj": {
+                "projectPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\FunctionalityModule\\FunctionalityModule.csproj"
+              },
+              "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4.csproj": {
+                "projectPath": "C:\\Users\\eugen\\RiderProjects\\OOP\\OOP_4\\OOP_4.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Newport": {
+              "target": "Package",
+              "version": "[1.3.0.12, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
